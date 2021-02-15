@@ -1,3 +1,91 @@
 body {
     padding-top: 5rem;
 }
+
+.top{
+    background: radial-gradient(#0090ff,#001367);
+    border-radius: 20px 20px 0px 0px;
+    padding: 40px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.main{
+    height: auto;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #999;
+    margin: 30px auto 50px auto;
+}
+
+.circular{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#test{
+    width: 100%;
+    height: auto;
+}
+
+#bio{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 40px 10px 40px;
+}
+
+.tracker{
+    display: flex;
+    justify-content: space-around; 
+    padding: 0px 90px 0px 90px;
+    text-align: center;
+}
+
+.count{
+    font-weight: bold;
+    color: #000000;
+    margin: 0px;
+}
+
+.top p{
+    color: #ffffff;
+    margin: 3px;
+    text-shadow: 0px 2px 2px #000000;
+}
+
+.top h2{
+    margin-top: 10px;
+    text-shadow: 0px 2px 4px #000000;
+}
+
+.top .circular{
+    box-shadow: 0px 0px 6px #2d2d2d;
+} 
+
+p{
+    color: #8b8b8b;
+}
+
+#follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    background-color: #001367;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: small;
+    padding: 10px 0px 10px 0px;
+    width: 150px;
+    margin: 30px 0px 30px 0px;
+}

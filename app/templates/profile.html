@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<div class = 'main'>
+    <div class = 'top'>
+        <div class='circular'>
+            <image id = 'test' src="{{url_for('static', filename = 'recent.jpg')}}">
+        </div>
+        <h2>{{name}}</h2>
+        <p id='handle'>@_delly876</p>
+        <p id='location'>Kingston, Jamaica</p>
+        <p id='date'>Joined {{date}}</p>
+    </div>
+
+    <div class = 'details'>
+        <p id='bio'>I am a smart and talented young man who is
+            enthusiastic about website design and development. Contact
+            me if you'd like to work together on a new project.
+        </p>
+    </div>
+
+    <div class = 'tracker'>
+        <div id = 'posts'>
+            <p class = 'count'>7</p>
+            <p>Posts</p>
+        </div>
+
+        <div id = 'following'>
+            <p class = 'count'>100</p>
+            <p>Following</p>
+        </div>
+
+        <div id = 'followers'>
+            <p class = 'count'>250</p>
+            <p>Followers</p>
+        </div>
+    </div>
+
+    <div id = 'follow'>
+        <button type="button">Follow</button>
+    </div>
+</div>
+
+{% endblock %}
